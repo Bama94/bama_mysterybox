@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+    <Version value="7314721" />
+    <ContainerPaths>
+        <Item>audiodirectory\mysterybox_sounds</Item>
+    </ContainerPaths>
+    <Items>
+        <!-- SimpleSounds -->
+        <Item type="SimpleSound">
+            <Name>evil_laugh_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/mysterybox_sounds</ContainerName>
+            <FileName>evil_laugh</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>byebye_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/mysterybox_sounds</ContainerName>
+            <FileName>byebye</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>openmysterybox_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/mysterybox_sounds</ContainerName>
+            <FileName>openmysterybox</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>teddybear_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/mysterybox_sounds</ContainerName>
+            <FileName>teddybear</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+
+        <!-- SoundSets !-->
+        <Item type="SoundSet">
+            <Name>mysterybox_sounds_soundset</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <SoundSets>
+                <Item>
+                    <ScriptName>evil_laugh</ScriptName>
+                    <ChildSound>evil_laugh_sp</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>byebye</ScriptName>
+                    <ChildSound>byebye_sp</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>openmysterybox</ScriptName>
+                    <ChildSound>openmysterybox_sp</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>teddybear</ScriptName>
+                    <ChildSound>teddybear_sp</ChildSound>
+                </Item>
+            </SoundSets>
+        </Item>
+    </Items>
+</Dat54>
